@@ -1,0 +1,44 @@
+#ifndef __ANSI_COLORS_H__
+#define __ANSI_COLORS_H__
+
+#define __ANSI_SEQ(n) "\033[" #n "m"
+
+#define BOLD __ANSI_SEQ(1)
+
+#define WEAK __ANSI_SEQ(2)
+#define HIGHLIGHT __ANSI_SEQ(3)
+#define UNDERLINE __ANSI_SEQ(4)
+#define BLACK __ANSI_SEQ(30)
+#define DARK_RED __ANSI_SEQ(31)
+#define DARK_GREEN __ANSI_SEQ(32)
+#define DARK_YELLOW __ANSI_SEQ(33)
+#define DARK_BLUE __ANSI_SEQ(34)
+#define DARK_PINK __ANSI_SEQ(35)
+#define DARK_CYAN __ANSI_SEQ(36)
+#define BLACK_BG __ANSI_SEQ(40)
+#define DARK_RED_BG __ANSI_SEQ(41)
+#define DARK_GREEN_BG __ANSI_SEQ(42)
+#define DARK_YELLOW_BG __ANSI_SEQ(43)
+#define DARK_BLUE_BG __ANSI_SEQ(44)
+#define DARK_PINK_BG __ANSI_SEQ(45)
+#define DARK_CYAN_BG __ANSI_SEQ(46)
+#define GRAY __ANSI_SEQ(90)
+#define LIGHT_RED __ANSI_SEQ(91)
+#define LIGHT_GREEN __ANSI_SEQ(92)
+#define LIGHT_YELLOW __ANSI_SEQ(93)
+#define LIGHT_BLUE __ANSI_SEQ(94)
+#define LIGHT_PINK __ANSI_SEQ(95)
+#define LIGHT_CYAN __ANSI_SEQ(96)
+#define LIGHT_GRAY __ANSI_SEQ(97)
+#define GRAY_BG __ANSI_SEQ(100)
+#define LIGHT_RED_BG __ANSI_SEQ(101)
+#define LIGHT_GREEN_BG __ANSI_SEQ(102)
+#define LIGHT_YELLOW_BG __ANSI_SEQ(103)
+#define LIGHT_BLUE_BG __ANSI_SEQ(104)
+#define LIGHT_PINK_BG __ANSI_SEQ(105)
+#define LIGHT_CYAN_BG __ANSI_SEQ(106)
+#define LIGHT_GRAY_BG __ANSI_SEQ(107)
+
+#define RESET "\033[m"
+
+#endif
